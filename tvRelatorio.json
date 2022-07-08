@@ -1,0 +1,106 @@
+[
+  {
+    "id": "acessar-site-de-compras",
+    "uri": "features/bdd/acesso.feature",
+    "keyword": "Funcionalidade",
+    "name": "acessar site de compras",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "acessar-site-de-compras;acesso-ao-site-americanas",
+        "keyword": "Cenario",
+        "name": "Acesso ao site americanas",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou no site",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/acesso.step.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "invalid argument\n  (Session info: chrome=103.0.5060.114) (Selenium::WebDriver::Error::InvalidArgumentError)\n#0 0x56155a4ecb13 <unknown>\n#1 0x56155a2f351f <unknown>\n#2 0x56155a2dfd98 <unknown>\n#3 0x56155a2de739 <unknown>\n#4 0x56155a2de942 <unknown>\n#5 0x56155a2f50e2 <unknown>\n#6 0x56155a35c2ef <unknown>\n#7 0x56155a3488b2 <unknown>\n#8 0x56155a35bb94 <unknown>\n#9 0x56155a3487a3 <unknown>\n#10 0x56155a31e0ea <unknown>\n#11 0x56155a31f225 <unknown>\n#12 0x56155a5342dd <unknown>\n#13 0x56155a5382c7 <unknown>\n#14 0x56155a51e22e <unknown>\n#15 0x56155a5390a8 <unknown>\n#16 0x56155a512bc0 <unknown>\n#17 0x56155a5556c8 <unknown>\n#18 0x56155a555848 <unknown>\n#19 0x56155a56fc0d <unknown>\n#20 0x7fb954d8bb43 <unknown>\n./features/step_definitions/acesso.step.rb:3:in `\"que estou no site\"'\nfeatures/bdd/acesso.feature:6:in `que estou no site'",
+              "duration": 30439138
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu seleciono tv",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/acesso.step.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "olho o preco",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/acesso.step.rb:12"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36107
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16997
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1338854177
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231063
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.37.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189689129
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
